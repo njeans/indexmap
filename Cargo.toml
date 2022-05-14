@@ -44,6 +44,8 @@ rustc-rayon = { version = "0.3", optional = true }
 version = "0.11"
 default-features = false
 features = ["raw"]
+git = "https://github.com/njeans/hashbrown.git"
+
 
 [dev-dependencies]
 itertools = "0.9"
